@@ -54,9 +54,10 @@ int main() {
     struct repeating_timer temporizador;
     add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &temporizador);
 
-    while (true) {
-        printf("Hello, world!\n");
-        sleep_ms(1000);
+    while (true) {  
+
+        sleep_ms(200);
+        
     }
 
 return 0;
