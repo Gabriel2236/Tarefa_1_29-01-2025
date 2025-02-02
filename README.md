@@ -82,6 +82,12 @@ Os pinos para os LEDs verde, amarelo e vermelho são definidos.
 
 A função `repeating_timer_callback` é chamada a cada 3 segundos para alternar o estado dos LEDs. A variável `ledon` controla qual LED está ativo.
 
+### Como Compilar e Executar
+
+1. Configure seu ambiente de desenvolvimento para o Raspberry Pi Pico conforme descrito na documentação oficial.
+2. Clone este repositório e navegue até o diretório do projeto.
+3. Compile o código.
+4. Abra o diagram.json para realizar a simulação e ver o codigo sendo executado.
 
 ## Autor
 
